@@ -1,0 +1,40 @@
+.carousel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.image-container {
+  height: 70vh;
+  width: 70vh;
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+.image {
+  width: 62vh;
+  height: 67vh;
+  display: block;
+  margin: 2% auto;
+
+  /* width: 75%; */
+}
+
+.arrow {
+  font-size: 3rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  padding: 20px;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1);
+  }

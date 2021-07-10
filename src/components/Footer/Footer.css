@@ -1,0 +1,27 @@
+.footer {
+  background-color: #290001;
+  width: 100%;
+  height: 15vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2vw;
+}
+
+.second{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vw;
+}
+
+.react-textj{
+    display: inline;
+    color: cyan;
+}
+
+.end{
+    font-family: "Sacramento", cursive;
+    font-size: 2vw;
+}

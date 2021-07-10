@@ -1,0 +1,17 @@
+.info-name{
+    font-size: 2vw;
+}
+
+.info-mail{
+    text-decoration: none;
+    cursor: pointer;
+    color: grey;
+    font-size: 1.3vw;
+}
+
+.info-icon{
+    display: inline;
+    color: black;
+    font-size: 1.3vw;
+    margin: 0 auto;
+}

@@ -1,0 +1,11 @@
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-color: #B2AB8C;
+}
+
+.cart-text{
+    text-align: center;
+    padding: 2%;
+    font-size: 3vw;
+}
